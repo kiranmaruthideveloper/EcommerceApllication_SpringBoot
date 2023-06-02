@@ -1,0 +1,12 @@
+2023-05-26 22:49:23 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY PRODUCT [*]PRODUCT"; SQL statement:
+SELECT * FROM CATEGORY PRODUCT PRODUCT [42000-214]
+2023-06-02 13:49:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USERS"; expected "UPDATE, USE"; SQL statement:
+USERS [42001-214]
+2023-06-02 22:14:34 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]desc users"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+desc users [42001-214]
+2023-06-02 22:14:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]DESCRIBE users"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DESCRIBE users [42001-214]
